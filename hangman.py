@@ -244,7 +244,6 @@ def print_result():
    
 
 def clear_screen():
-#   sys.stderr.write("\x1b[2J\x1b[H")
    print("--------- take a turn -------")
    print("\033[H\033[J")
    nl()
