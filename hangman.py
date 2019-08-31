@@ -1,23 +1,14 @@
 #!/usr/bin/python3
 import sys
 
-word = "";                      # The word we are trying to guess.
-guessed = "";                   # Guessed letters so far.
+# Set the word to guess here.
+word = "kookaburra";
+
+guessed = "";
 num_lives = 11;
 
+
 def main():
-   global word
-
-   word = gen_new_word()
-   play()
-
-
-def gen_new_word():
-   """Set the word to guess here"""
-   return "a"
-   
-
-def play():
    while True:
       if game_is_over():
          display()
