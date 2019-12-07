@@ -40,7 +40,7 @@ def read_guess():
 
    guess.rstrip()
    if len(guess) > 1:
-      print("Just guess a single leter please")
+      print("Just guess a single letter please")
       read_guess()
 
    if guess not in guessed:
